@@ -8,7 +8,18 @@ public class ConditionRun { // 실행용
 		
 		//condition.ex1();
 		//condition.ex2();
-		condition.ex3();
+		//condition.ex3();
+		//condition.ex4();
+		//condition.ex5();
+		//condition.ex6();
+		
+		SwitchExample switchEx = new SwitchExample();
+		
+		//switchEx.ex1();
+		//switchEx.ex2();
+		switchEx.ex3();
+		
+		
 		
 	}
 

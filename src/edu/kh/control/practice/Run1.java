@@ -3,15 +3,13 @@ package edu.kh.control.practice;
 public class Run1 {
 
 	public static void main(String[] args) {
-		ConditionPractice practice = new ConditionPractice();
-			
+		ConditionPractice prac = new ConditionPractice();
 		
-		practice.practice1();
-		practice.practice2();
-		practice.practice3();
-		practice.practice4();
-		practice.practice5();
-		
+		//prac.practice1();
+		//prac.practice2();
+		//prac.practice3();
+		//prac.practice4();
+		prac.practice5();
 	}
 
 }

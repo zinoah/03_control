@@ -17,7 +17,7 @@ public class ConditionRun { // 실행용
 		
 		//switchEx.ex1();
 		//switchEx.ex2();
-		switchEx.ex3();
+		//switchEx.ex3();
 		
 		
 		

@@ -9,7 +9,7 @@ public class Run1 {
 		//prac.practice2();
 		//prac.practice3();
 		//prac.practice4();
-		prac.practice5();
+		//prac.practice5();
 	}
 
 }

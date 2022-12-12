@@ -183,5 +183,6 @@ public class ConditionPractice {
 			}
 		}
 		System.out.println(result);	
+		
 	}
 }

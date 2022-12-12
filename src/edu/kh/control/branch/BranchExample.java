@@ -54,8 +54,7 @@ public class BranchExample {
 			
 			if(i == 40) {
 				break;
-			}
-			if(i % 5 == 0) {
+			}else if(i % 5 == 0) {
 				continue;
 				
 			}

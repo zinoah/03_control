@@ -15,10 +15,10 @@ public class Run2 {
 		//loopEx.practice7();
 		//loopEx.practice8();
 		//loopEx.practice9();
-		//l\oopEx.practice10();
-		loopEx.practice11();
+		//loopEx.practice10();
+		//loopEx.practice11();
 		//loopEx.practice12();
-		//loopEx.practice13();
+		loopEx.practice13();
 	
 		
 	}

@@ -12,8 +12,9 @@ public class LoopPractice {
 		ex.
 		1이상의 숫자를 입력하세요 : 4       1이상의 숫자를 입력하세요 : 0
 		1 2 3 4                       1 이상의 숫자를 입력해주세요.*/
+		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("숫자를 입력하세요 : ");
+		System.out.print("1이상의 숫자를 입력하세요 : ");
 		int input = sc.nextInt();
 		
 		if(input > 0) {
@@ -35,7 +36,7 @@ public class LoopPractice {
 		4 3 2 1                      1 이상의 숫자를 입력해주세요.*/
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("숫자를 입력하세요 : ");
+		System.out.print("1 이상의 숫자를 입력하세요 : ");
 		int input = sc.nextInt();
 		
 		if(input > 0) {
@@ -56,7 +57,7 @@ public class LoopPractice {
 		정수를 하나 입력하세요 : 8
 		1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36 */
 		Scanner sc = new Scanner(System.in);
-		System.out.print("숫자를 입력하세요 : ");
+		System.out.print("정수를 하나 입력하세요 : ");
 		int num = sc.nextInt();
 		int sum = 0;
 		
@@ -304,7 +305,7 @@ public class LoopPractice {
 		   *
 		  ***
 		 *****
-		*******
+		******* <== input * 2 - 1
 		
 		*/
 		
@@ -316,7 +317,7 @@ public class LoopPractice {
 			for(int y = 0; y < (num - 1) - x; y++) {	
 					System.out.print(" ");
 			}
-			for(int j = 0; j <= (x * 2); j++ ) {
+			for(int j = 0; j <= (x * 2)  ; j++ ) {
 				System.out.print("*");
 			}
 		 System.out.println();
@@ -381,8 +382,7 @@ public class LoopPractice {
 				if(0 == i % 2 && 0 == i % 3) {
 					count++;
 				}
-			}
-			
+			}			
 		} 
 		System.out.println();
 		System.out.println("count : " + count);
